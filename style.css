@@ -1,0 +1,110 @@
+[data-bs-theme="light"] nav {
+  background-color: #b8eaff;
+}
+
+[data-bs-theme="light"] .jumbotron {
+  padding-top: 6rem;
+  background-color: #3da2c7;
+}
+
+[data-bs-theme="light"] .jumbotron img[src*="img/ranolight.jpg"] {
+  background-image: url("img/ranolight.jpg");
+}
+
+[data-bs-theme="light"] .text1 {
+  color: white;
+}
+
+[data-bs-theme="light"] #projects {
+  background-color: #3da2c7;
+}
+
+[data-bs-theme="light"] footer {
+  background-color: #b8eaff;
+}
+
+[data-bs-theme="light"] .colorFooter {
+  fill: #b8eaff;
+}
+
+[data-bs-theme="light"] .colorSvg1 {
+  fill: var(--bs-body-bg);
+}
+
+[data-bs-theme="light"] .colorSvg2 {
+  fill: #3da2c7;
+}
+
+/* svg path {
+  animation: oceanWave linear infinite;
+  animation-delay: calc(var(--i) * -1s);
+  animation-duration: 10s;
+}
+
+@keyframes oceanWave {
+  0% {
+    d: path("M0,192 C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 500 L0 500");
+  }
+  25% {
+    d: path("M0,100 C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 500 L0 500");
+  }
+  50% {
+    d: path("M0,192 C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 500 L0 500");
+  }
+  75% {
+    d: path("M0,292 C220,292,440,100,660,100 C880,100,1100,292,1320,292 L1320 500 L0 500");
+  }
+  100% {
+    d: path("M0,192 C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 500 L0 500");
+  }
+} */
+
+section {
+  padding-top: 5rem;
+}
+
+.form-check-input {
+  background-color: black;
+  border-color: grey;
+}
+
+.form-check-input:checked {
+  background-color: #3da2c7;
+  border-color: var(--bs-body-color);
+}
+
+[data-bs-theme="dark"] nav {
+  background-color: #04364a;
+}
+
+[data-bs-theme="dark"] .jumbotron {
+  padding-top: 6rem;
+  background-color: #176b87;
+}
+[data-bs-theme="dark"] .text1 {
+  color: white;
+}
+
+[data-bs-theme="dark"] #projects {
+  background-color: #176b87;
+}
+
+[data-bs-theme="dark"] footer {
+  background-color: #04364a;
+}
+
+[data-bs-theme="dark"] .colorFooter {
+  fill: #04364a;
+}
+
+[data-bs-theme="dark"] .colorSvg1 {
+  fill: var(--bs-body-bg);
+}
+
+[data-bs-theme="dark"] .colorSvg2 {
+  fill: #176b87;
+}
+
+/* section .container .row .col {
+  margin-top: 5rem;
+} */
